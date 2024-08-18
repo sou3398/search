@@ -1,0 +1,97 @@
+a{
+    text-decoration:none;
+    color:#000;
+}
+
+body{
+    
+    background-color:#c0c0c0;
+    margin:0;
+    padding:0;
+    
+}
+
+header{
+    width: 100%;
+    background-color:#a2a2a2;
+    opacity:0.8;
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+
+.header-left{
+    height: 128px;
+    width: 100%;
+    
+}
+
+.header-left a{
+    font-size:60px;
+    font-family:"Georgia";
+    margin:0 0 0 0;
+    padding:30px;
+    display:inline-block;
+}
+
+.background img{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    opacity:0.5;
+    position:fixed;
+    top:0;
+    z-index:-1;
+
+}
+
+.home{
+    margin-top: 350px;
+    text-align: center;
+    
+    
+}
+
+.search-box{
+    
+    width: 40%;
+    
+    border-radius:10px;
+    background-color: #fff;
+    display:inline-block;
+}
+
+.image{
+    height: 40px;
+    width: 40px;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.keyword{
+    font-size:100%;
+    height: 50px;
+    width: 90%;
+    display: inline-block;
+    vertical-align: middle;
+    border:none;
+    border-radius:30px;
+}
+
+.keyword:focus{
+    outline:none;
+}
+
+.magnifying_glass{
+    height: 26px;
+    width: 26px;
+    padding-top:9px;
+}
+
+.london{
+    height: 160px;
+    width: 160px;
+}
+
+
